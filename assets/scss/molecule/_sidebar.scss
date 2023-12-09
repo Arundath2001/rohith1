@@ -1,0 +1,28 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    max-width: 160px;
+    gap: 37px;
+    background: linear-gradient(178deg, #5321CA -2.19%, rgba(27, 0, 92, 0.53) 110.15%);
+    box-shadow: 0px 21px 21px 1px rgba(45, 29, 71, 0.53);
+    &__cont2{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    &__down{
+        margin-top: 132px;
+    }
+    padding: 42px 29px 51px 1px;
+    a:hover{
+        color: black;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        transition: .5s;
+
+    }
+}

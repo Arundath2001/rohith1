@@ -1,0 +1,13 @@
+.vendor{
+    &__cont1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 90px;
+    }
+    border-radius: 12px;
+    background-color: white;
+    padding: 25px 30px;
+    max-width: 365px;
+
+}

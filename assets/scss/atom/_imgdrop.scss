@@ -1,0 +1,40 @@
+.imgdrop{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &__circle {
+        width: 40px;
+        height: 40px; 
+        border-radius: 50%;
+        overflow: hidden;
+      }
+  
+      &__circle img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  
+      &__drop {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 15px solid #fff; 
+        margin-top: 5px;
+      }
+
+      &__cont {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+  
+      .imgdrop:hover &__cont {
+        display: block;
+      }
+}

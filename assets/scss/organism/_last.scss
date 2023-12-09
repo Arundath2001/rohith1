@@ -1,0 +1,32 @@
+.last{
+    display: flex;
+    flex-direction: row;
+    border-radius: 56px;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    background: radial-gradient(101.81% 98.73% at 51.96% 40.13%, rgba(96, 103, 242, 0.80) 0.01%, rgba(52, 52, 52, 0.80) 94.06%);
+    box-shadow: 10px 28px 36px 17px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(25.5px);
+    padding: 30px;
+    gap: 20px;
+    margin: 0px auto;
+    &__cont2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__col2small{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__col2{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    &__col3{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}

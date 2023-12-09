@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>total</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="total">
+        <div class="total__top">
+            <div class="mainhead">
+                <p>€ 102.5M</p>
+                <a href="#">Total Revenue</a>
+            </div>
+
+            <div class="total__left">
+                <div class="dottextmain">
+                    <div class="dottext dot">
+                        Earned
+                    </div>    
+                </div>
+                <div class="dottextmain dottextmain--color">
+                    <div class="dottext dot">
+                        Forecasted
+                    </div>    
+                </div>
+                <div class="dropdown">
+                    <select id="dropdown" name="dropdown">
+                        <option value="option1">6 Months</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="total__down">
+            <div class="graph1">
+                <canvas id="myChart1" width="660" height="170"></canvas>
+            </div>            
+        </div>
+    </div>
+    <script src="../assets/js/graph1.js"></script>
+</body>
+</html>

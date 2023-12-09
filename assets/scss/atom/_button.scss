@@ -1,0 +1,19 @@
+.button{
+    button{
+        color: #FFF;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 18px 77px;
+        border-radius: 17px;
+        background-color: #3E00C2;
+        cursor: pointer;
+    }
+    button:hover{
+        transform: scale(.9);
+        transition: .6s;
+        color: black;
+    }
+
+}

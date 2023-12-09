@@ -1,0 +1,18 @@
+.cardqbr{
+    padding: 25px 30px;
+    max-width: 297px;
+    border-radius: 12px;
+    background-color: white;
+    &__para1{
+        color: #23005B;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 22px;
+    }
+    &__cont1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

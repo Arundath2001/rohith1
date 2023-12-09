@@ -1,0 +1,18 @@
+.icontext{
+    padding: 10px 20px;
+    a{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        color: #D5BBFF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+        text-decoration: none;
+    }
+    svg{
+        width: 24px;
+        height: 24px;
+    }
+}
